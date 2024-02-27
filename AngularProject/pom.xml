@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.6.7</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.example</groupId>
+	<artifactId>AngularProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>AngularProject</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-api</artifactId>
+	<version>0.11.5</version>
+</dependency>
+
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-impl</artifactId>
+	<version>0.11.5</version>
+	<scope>runtime</scope>
+</dependency>
+
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-jackson</artifactId>
+	<version>0.11.5</version>
+	<scope>runtime</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api -->
+<dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
+</dependency>
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-api</artifactId>
+	<version>0.11.5</version>
+</dependency>
+
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-impl</artifactId>
+	<version>0.11.5</version>
+	<scope>runtime</scope>
+</dependency>
+
+<dependency>
+	<groupId>io.jsonwebtoken</groupId>
+	<artifactId>jjwt-jackson</artifactId>
+	<version>0.11.5</version>
+	<scope>runtime</scope>
+</dependency>
+		
+		
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+   			<groupId>junit</groupId>
+   		 <artifactId>junit</artifactId>
+   		 <version>4.13.2</version>
+   		 <scope>test</scope>
+		</dependency>
+		
+		
+	
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-context-support</artifactId>
+  <version>4.3.19.RELEASE</version>
+</dependency>
+
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
+		<dependency>
+  <groupId>net.sf.jasperreports</groupId>
+  <artifactId>jasperreports</artifactId>
+  <version>6.12.2</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports-fonts</artifactId>
+    <version>6.16.0</version>
+</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Jasper Dependencies-->
+		<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+    <scope>provided</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>
+</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.0.0</version>
+</dependency>
+	<!-- Dependencies for pdf format-->
+		<dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>kernel</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-test -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-test</artifactId>
+    <version>1.4.0.RELEASE</version>
+    <scope>test</scope>
+</dependency>
+      
+      <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+    <scope>provided</scope>
+</dependency>
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>io</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>layout</artifactId>         
+         <version>7.0.2</version>
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>forms</artifactId>         
+         <version>7.0.2</version>    
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>pdfa</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>sign</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>barcodes</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>font-asian</artifactId>         
+         <version>7.0.2</version>     
+      </dependency>  
+      
+      <dependency>         
+         <groupId>com.itextpdf</groupId>         
+         <artifactId>hyph</artifactId>         
+         <version>7.0.2</version>    
+      </dependency> 
+		
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
